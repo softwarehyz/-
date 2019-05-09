@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6ad656a1-07b6-4e60-9494-20fa6c94e7b7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../MavenProject/src/main/JAVA/com/hyz0430/common/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/src/main/JAVA/com/hyz0430/common/Paging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/src/main/JAVA/com/hyz0430/common/ServerResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/src/main/JAVA/com/hyz0430/controller/uploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/src/main/JAVA/com/hyz0430/dao/StudentLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/src/main/JAVA/com/hyz0430/dao/StudentOperCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/src/main/JAVA/com/hyz0430/dao/UserLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/src/main/JAVA/com/hyz0430/dao/UserOperCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/src/main/JAVA/com/hyz0430/dao/UserOperStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/src/main/JAVA/com/hyz0430/empty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/src/main/JAVA/com/hyz0430/pojo/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/src/main/JAVA/com/hyz0430/pojo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/src/main/JAVA/com/hyz0430/pojo/StudentCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/src/main/JAVA/com/hyz0430/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/src/main/Resources/Application.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/src/main/Resources/MyBatisConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/src/main/Resources/SpringMVC.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/src/main/Resources/com/hyz/0430/Mapper/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/src/main/Resources/com/hyz/0430/Mapper/StudentOperCourseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/src/main/Resources/com/hyz/0430/Mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/src/main/Resources/com/hyz/0430/Mapper/UserOperCourseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/src/main/Resources/com/hyz/0430/Mapper/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/src/main/Resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/src/main/webapp/WEB-INF/upload.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSystem/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emptySSMobject/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emptySSMobject/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emptySSMobject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emptySSMobject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emptySSMobject/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emptySSMobject/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emptySSMobject/src/main/resources/Application.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emptySSMobject/src/main/resources/MyBatisConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emptySSMobject/src/main/resources/SpringMVC.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emptySSMobject/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVASE/2019.4.08  (学生管理系统Postman版本)/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVASE/2019.4.08  (学生管理系统Postman版本)/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVASE/2019.4.08  (学生管理系统Postman版本)/Empinfo.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVASE/2019.4.08  (学生管理系统Postman版本)/Empinfo.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVASE/2019.4.08  (学生管理系统Postman版本)/src/com/hyz0408/common/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVASE/2019.4.08  (学生管理系统Postman版本)/src/com/hyz0408/common/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVASE/2019.4.08  (学生管理系统Postman版本)/src/com/hyz0408/common/StudentCourseOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVASE/2019.4.08  (学生管理系统Postman版本)/src/com/hyz0408/common/StudentCourseOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVASE/2019.4.08  (学生管理系统Postman版本)/src/com/hyz0408/controller/StudentChooseCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVASE/2019.4.08  (学生管理系统Postman版本)/src/com/hyz0408/controller/StudentChooseCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVASE/2019.4.08  (学生管理系统Postman版本)/src/com/hyz0408/controller/StudentLoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVASE/2019.4.08  (学生管理系统Postman版本)/src/com/hyz0408/controller/StudentLoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVASE/2019.4.08  (学生管理系统Postman版本)/src/com/hyz0408/controller/StudentSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVASE/2019.4.08  (学生管理系统Postman版本)/src/com/hyz0408/controller/StudentSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVASE/2019.4.08  (学生管理系统Postman版本)/src/com/hyz0408/controller/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVASE/2019.4.08  (学生管理系统Postman版本)/src/com/hyz0408/controller/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVASE/2019.4.08  (学生管理系统Postman版本)/src/com/hyz0408/filter/StudentLoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVASE/2019.4.08  (学生管理系统Postman版本)/src/com/hyz0408/filter/StudentLoginFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVASE/2019.4.08  (学生管理系统Postman版本)/src/com/hyz0408/pojo/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVASE/2019.4.08  (学生管理系统Postman版本)/src/com/hyz0408/pojo/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVASE/2019.4.08  (学生管理系统Postman版本)/src/com/hyz0408/pojo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVASE/2019.4.08  (学生管理系统Postman版本)/src/com/hyz0408/pojo/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVASE/2019.4.08  (学生管理系统Postman版本)/src/com/hyz0408/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVASE/2019.4.08  (学生管理系统Postman版本)/src/com/hyz0408/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVASE/2019.4.08  (学生管理系统Postman版本)/src/com/hyz0408/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVASE/2019.4.08  (学生管理系统Postman版本)/src/com/hyz0408/service/CourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVASE/2019.4.08  (学生管理系统Postman版本)/src/com/hyz0408/service/StudentChooseCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVASE/2019.4.08  (学生管理系统Postman版本)/src/com/hyz0408/service/StudentChooseCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVASE/2019.4.08  (学生管理系统Postman版本)/src/com/hyz0408/service/impl/CourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVASE/2019.4.08  (学生管理系统Postman版本)/src/com/hyz0408/service/impl/CourseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVASE/2019.4.08  (学生管理系统Postman版本)/src/com/hyz0408/service/impl/StudentChooseCourseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVASE/2019.4.08  (学生管理系统Postman版本)/src/com/hyz0408/service/impl/StudentChooseCourseImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVASE/2019.4.08  (学生管理系统Postman版本)/src/com/hyz0408/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVASE/2019.4.08  (学生管理系统Postman版本)/src/com/hyz0408/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVASE/2019.4.08  (学生管理系统Postman版本)/src/com/hyz0408/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVASE/2019.4.08  (学生管理系统Postman版本)/src/com/hyz0408/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVASE/2019.4.12  （学生前端界面）/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVASE/2019.4.12  （学生前端界面）/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVASE/2019.4.12  （学生前端界面）/JS表单练习 2019.3.15/StuHome.css" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVASE/2019.4.12  （学生前端界面）/JS表单练习 2019.3.15/StuHome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVASE/2019.4.12  （学生前端界面）/JS表单练习 2019.3.15/StuHome.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVASE/2019.4.12  （学生前端界面）/JS表单练习 2019.3.15/StuHome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVASE/2019.4.12  （学生前端界面）/JS表单练习 2019.3.15/StuHome.js" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVASE/2019.4.12  （学生前端界面）/JS表单练习 2019.3.15/StuHome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVASE/2019.4.12  （学生前端界面）/JS表单练习 2019.3.15/TeacHome.css" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVASE/2019.4.12  （学生前端界面）/JS表单练习 2019.3.15/TeacHome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVASE/2019.4.12  （学生前端界面）/JS表单练习 2019.3.15/TeacHome.js" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVASE/2019.4.12  （学生前端界面）/JS表单练习 2019.3.15/TeacHome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVASE/2019.4.12  （学生前端界面）/JS表单练习 2019.3.15/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVASE/2019.4.12  （学生前端界面）/JS表单练习 2019.3.15/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVASE/2019.4.12  （学生前端界面）/JS表单练习 2019.3.15/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVASE/2019.4.12  （学生前端界面）/JS表单练习 2019.3.15/index.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/business/pojo/PayInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/business/pojo/Product.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/business/pojo/Shipping.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/business/pojo/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/business/dao/CartMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/business/dao/CategoryMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/business/dao/OrderItemMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/business/dao/OrderMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/business/dao/PayInfoMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/business/dao/ProductMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="electricsystem" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="electricsystem" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="electricsystem" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="mybatis-generator" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="42" />
+    <option name="y" value="87" />
+    <option name="width" value="1346" />
+    <option name="height" value="438" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="electricsystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="electricsystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\FY2019-JAVA02\electricsystem\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="ElectricsystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="electricsystem" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.business.ElectricsystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ad656a1-07b6-4e60-9494-20fa6c94e7b7" name="Default Changelist" comment="" />
+      <created>1557305527798</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557305527798</updated>
+      <workItem from="1557305531625" duration="2914000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2914000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24281392" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.07903226" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" weight="0.32980332" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Bean Validation" weight="0.32980332" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://D:/东软/视频/FY2019-精英2班/电商后台系统/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="39" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="80" column="10" selection-start-line="80" selection-start-column="10" selection-end-line="80" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/business/dao/ShippingMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/business/dao/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/business/pojo/Cart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/business/pojo/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/business/pojo/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/business/pojo/OrderItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/business/pojo/PayInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/business/pojo/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/business/pojo/Shipping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/business/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/business/dao/CartMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/business/dao/CategoryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/business/dao/OrderItemMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/business/dao/OrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/business/dao/PayInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/business/dao/ProductMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
